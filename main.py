@@ -1,7 +1,7 @@
 """Getting CSV to dictionary for now"""
 
-from csv_to_object import open_csv
 from SQL_commands_csv import *
+from csv_to_object import open_csv
 
 
 def run_open_csv():
@@ -55,9 +55,6 @@ if __name__ == "__main__":
     run_select_all_sql()
 
     # run_select_by_id()
-
-
-
 
 # csv_to_sql()
 # show = run_open_csv()
