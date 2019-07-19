@@ -1,12 +1,24 @@
 """Getting CSV to dictionary for now"""
 
 from SQL_commands_csv import *
-from csv_to_object import open_csv
+from SQL_commands_json import *
+from SQL_commands_common import *
+
+
+def run_open_json():
+    """
+    Opens a json file
+    :return: a dictionary of json file
+    """
+    json_dict = open_json(input("Import Json file:"))
+    return json_dict
 
 
 def run_open_csv():
     """
     Opens a CSV file
+
+    data index[0-4] are keys. data index[5:] are values
     :return: data in dictionary
     """
     data = open_csv(input("Import CSV file:"))
@@ -36,27 +48,42 @@ def csv_to_sql():
     Imports CSV and inserts to SQL
     """
     data = run_open_csv()
-    print(data.keys(), data.values())
-    print(data["Name"], data["Calories"], data["Carbohydrate"], data["Fat"], data["Protein"])
-    x = """
-                    INSERT INTO ANTzOCR.dbo.Foodstuff (Name, Calories, Carbohydrate, Fat, Protein)
-                    VALUES
-                    ({}, {}, {}, {}, {}) 
-        """
-    print(x.format(data["Name"], data["Calories"], data["Carbohydrate"], data["Fat"], data["Protein"]))
     insert_sql(data)
 
 
-def run_select_by_id():
+def json_to_sql():
+    """
+    Imports CSV and inserts to SQL
+    """
+    data = run_open_json()
+    insert_sql(data)
+
+
+def run_select_by_id_csv():
     select_by_id_sql(input("food id here:"))
 
 
+def run_select_by_id_json():
+    select_by_id_json(input("Input food id here:"))
+
+
 if __name__ == "__main__":
-    run_select_all_sql()
+    run_select_by_id_json()
 
-    # run_select_by_id()
+    # select_all_json()
 
-# csv_to_sql()
+    # json_to_sql()
+
+
+    # csv_to_sql()
+
+    # run_open_json()
+
+    # run_select_all_sql()
+
+
+
+
 # show = run_open_csv()
 # print(show)
 

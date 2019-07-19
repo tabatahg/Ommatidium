@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8f23007-415c-4de4-8070-657abf02a3d6" name="Default Changelist" comment="" />
+    <list default="true" id="e8f23007-415c-4de4-8070-657abf02a3d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SQL_commands_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL_commands_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/SQL_commands_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_to_object.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json_to_object.py" beforeDir="false" afterPath="$PROJECT_DIR$/SQL_commands_common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +21,62 @@
     <favorites_list name="Ommatidium" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+              <folding>
+                <element signature="e#41#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SQL_commands_json.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SQL_commands_csv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="59" column="38" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="59" selection-end-column="38" />
+              <folding>
+                <element signature="e#37#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SQL_commands_common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common_functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -27,19 +91,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/json_to_object.py" />
         <option value="$PROJECT_DIR$/csv_to_object.py" />
         <option value="$PROJECT_DIR$/object_to_sql.py" />
         <option value="$PROJECT_DIR$/connection_string.py" />
         <option value="$PROJECT_DIR$/SQL_commands.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/ommatidium/SQL_commands_csv.py" />
         <option value="$PROJECT_DIR$/ommatidium/main2.py" />
         <option value="$PROJECT_DIR$/ommatidium/main.py" />
+        <option value="$PROJECT_DIR$/json_to_object.py" />
+        <option value="$PROJECT_DIR$/common_functions.py" />
+        <option value="$PROJECT_DIR$/SQL_commands_common.py" />
+        <option value="$PROJECT_DIR$/SQL_commands_csv.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/SQL_commands_json.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="363" />
     <option name="y" value="38" />
     <option name="width" value="1181" />
@@ -69,6 +137,11 @@
               <item name="Ommatidium" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ommatidium" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Ommatidium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ommatidium" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -77,8 +150,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -133,8 +207,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563475797095</updated>
+      <workItem from="1563569470707" duration="9000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -147,88 +225,147 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50084037" side_tool="true" weight="0.30133504" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49915966" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49915966" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="2" sideWeight="0.50084037" side_tool="true" weight="0.30133504" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49904642" visible="true" weight="0.32887402" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5009536" side_tool="true" weight="0.32995495" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49904642" weight="0.32887402" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50105375" side_tool="true" weight="0.32664436" />
       <window_info anchor="bottom" id="Python Console" order="2" sideWeight="0.4996139" weight="0.32887402" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32664436" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49894625" visible="true" weight="0.32664436" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32887402" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="GraphQL" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/ommatidium" />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="insert_command" />
         <watch expression="cursor" />
+        <watch expression="__exception__[1]" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/object_to_sql.py" />
-    <entry file="file://$PROJECT_DIR$/json_to_object.py" />
-    <entry file="file://$PROJECT_DIR$/csv_to_object.py" />
     <entry file="file://$PROJECT_DIR$/29a75b74ea7f4e68adcd621b3c93b5d8.csv" />
     <entry file="file://$PROJECT_DIR$/654b90d42c3849ad8f1a96f7659be7c6.csv" />
     <entry file="file://$PROJECT_DIR$/baa6c6ec33b3486bbbcd9ccfb3921a16.csv" />
     <entry file="file://$PROJECT_DIR$/1b6a27b101204207aa0dc44d6cd4658c.csv" />
-    <entry file="file://$PROJECT_DIR$/main.py" />
     <entry file="file://$PROJECT_DIR$/SQL_commands.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py" />
+    <entry file="file://$PROJECT_DIR$/ommatidium/object_to_sql.py" />
+    <entry file="file://$PROJECT_DIR$/ommatidium/csv_to_object.py" />
+    <entry file="file://$PROJECT_DIR$/ommatidium/main2.py" />
+    <entry file="file://$PROJECT_DIR$/ommatidium/json_to_object.py" />
+    <entry file="file://$PROJECT_DIR$/ommatidium/SQL_commands_csv.py" />
+    <entry file="file://$PROJECT_DIR$/ommatidium/main.py" />
+    <entry file="file://$PROJECT_DIR$/950a8bbce7024df39d1ed8a7f94abf2e.csv" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="1146" selection-start-line="1146" selection-end-line="1146" />
+        <state relative-caret-position="681">
+          <caret line="354" selection-start-line="354" selection-end-line="354" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+    <entry file="file://$PROJECT_DIR$/csv_to_object.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="36">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ommatidium/object_to_sql.py">
+    <entry file="file://$PROJECT_DIR$/jello.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ommatidium/csv_to_object.py">
+    <entry file="file://$PROJECT_DIR$/data/jello.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ommatidium/main2.py">
+    <entry file="file://$PROJECT_DIR$/de44cf2b3f324085a12ae23be6f90ef9.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/da1258dad9af41c38d3365226833ff75.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/65fc159fbc544791b81c9eab8742682d.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4a10a924d51948ea84ff2bc9319e9f1b.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/89752df8a63e4871b37178e2556c74c0.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQL_commands_common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7914505b3fa2408b835b5f33a1d7fd3c.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fc94024b19f04ad6bb823eb9bcc2b22d.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19ec8791d3ca4644a6af8abcc8858db5.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQL_commands_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="59" column="38" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="59" selection-end-column="38" />
           <folding>
-            <element signature="e#41#75#0" expanded="true" />
+            <element signature="e#37#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ommatidium/json_to_object.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ommatidium/SQL_commands_csv.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="170">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#41#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ommatidium/main.py">
+    <entry file="file://$PROJECT_DIR$/SQL_commands_json.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        <state relative-caret-position="381">
+          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
