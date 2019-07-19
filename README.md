@@ -11,9 +11,9 @@ Build app from simple to complex starting from back to front with an exception f
 
 SQL to server/api to frontend.
 
-# May need to think about other online databases
+* May need to think about other online databases
 
-# First iteration:
+# First iteration (completed):
 
 * Create SQL table with simple values: calories, proteins, carbohydrates, and fats
 * Import Pandas and setup CSV into dictionary variable for SQL
