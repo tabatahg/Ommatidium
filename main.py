@@ -1,7 +1,7 @@
 """Getting CSV to dictionary for now"""
 
 from csv_to_object import open_csv
-from SQL_commands import *
+from SQL_commands_csv import *
 
 
 def run_open_csv():
