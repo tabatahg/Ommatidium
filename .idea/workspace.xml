@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8f23007-415c-4de4-8070-657abf02a3d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SQL_commands_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL_commands_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/SQL_commands_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_to_object.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json_to_object.py" beforeDir="false" afterPath="$PROJECT_DIR$/SQL_commands_common.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,56 +17,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="176">
+              <caret line="76" column="28" lean-forward="true" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
               <folding>
                 <element signature="e#41#71#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SQL_commands_json.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SQL_commands_csv.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="59" column="38" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="59" selection-end-column="38" />
-              <folding>
-                <element signature="e#37#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SQL_commands_common.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common_functions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -102,8 +55,8 @@
         <option value="$PROJECT_DIR$/common_functions.py" />
         <option value="$PROJECT_DIR$/SQL_commands_common.py" />
         <option value="$PROJECT_DIR$/SQL_commands_csv.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/SQL_commands_json.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -119,17 +72,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Ommatidium" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\tabat\PycharmProjects\Ommatidium" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,13 +88,24 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Ommatidium" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\tabat\PycharmProjects\Ommatidium" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -228,7 +181,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50084037" side_tool="true" weight="0.30133504" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49915966" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49915966" visible="true" weight="0.15015806" />
       <window_info id="Structure" order="2" sideWeight="0.50084037" side_tool="true" weight="0.30133504" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49904642" weight="0.32887402" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50105375" side_tool="true" weight="0.32664436" />
@@ -236,7 +189,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49894625" visible="true" weight="0.32664436" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49894625" visible="true" weight="0.32664436" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -272,8 +225,6 @@
     <entry file="file://$PROJECT_DIR$/baa6c6ec33b3486bbbcd9ccfb3921a16.csv" />
     <entry file="file://$PROJECT_DIR$/1b6a27b101204207aa0dc44d6cd4658c.csv" />
     <entry file="file://$PROJECT_DIR$/SQL_commands.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py" />
     <entry file="file://$PROJECT_DIR$/ommatidium/object_to_sql.py" />
     <entry file="file://$PROJECT_DIR$/ommatidium/csv_to_object.py" />
     <entry file="file://$PROJECT_DIR$/ommatidium/main2.py" />
@@ -288,40 +239,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csv_to_object.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jello.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_to_object.py" />
+    <entry file="file://$PROJECT_DIR$/jello.json" />
     <entry file="file://$PROJECT_DIR$/data/jello.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/de44cf2b3f324085a12ae23be6f90ef9.json">
+    <entry file="file://$PROJECT_DIR$/de44cf2b3f324085a12ae23be6f90ef9.json" />
+    <entry file="file://$PROJECT_DIR$/da1258dad9af41c38d3365226833ff75.json" />
+    <entry file="file://$PROJECT_DIR$/65fc159fbc544791b81c9eab8742682d.json" />
+    <entry file="file://$PROJECT_DIR$/4a10a924d51948ea84ff2bc9319e9f1b.json" />
+    <entry file="file://$PROJECT_DIR$/89752df8a63e4871b37178e2556c74c0.json" />
+    <entry file="file://$PROJECT_DIR$/7914505b3fa2408b835b5f33a1d7fd3c.csv" />
+    <entry file="file://$PROJECT_DIR$/fc94024b19f04ad6bb823eb9bcc2b22d.json" />
+    <entry file="file://$PROJECT_DIR$/19ec8791d3ca4644a6af8abcc8858db5.json" />
+    <entry file="file://$USER_HOME$/.software/CodeTime.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/da1258dad9af41c38d3365226833ff75.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/65fc159fbc544791b81c9eab8742682d.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4a10a924d51948ea84ff2bc9319e9f1b.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/89752df8a63e4871b37178e2556c74c0.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SQL_commands_common.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -330,41 +262,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7914505b3fa2408b835b5f33a1d7fd3c.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fc94024b19f04ad6bb823eb9bcc2b22d.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/19ec8791d3ca4644a6af8abcc8858db5.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/SQL_commands_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="59" column="38" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="59" selection-end-column="38" />
+        <state relative-caret-position="507">
+          <caret line="59" column="38" selection-start-line="40" selection-start-column="4" selection-end-line="59" selection-end-column="38" />
           <folding>
             <element signature="e#37#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="e#41#71#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="1146" selection-start-line="1146" selection-end-line="1146" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SQL_commands_json.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="37" />
+        <state relative-caret-position="198">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/914fd095607446248e83c2891b6cdd5e.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="76" column="28" lean-forward="true" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
+          <folding>
+            <element signature="e#41#71#0" expanded="true" />
           </folding>
         </state>
       </provider>

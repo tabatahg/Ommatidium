@@ -67,23 +67,20 @@ def run_select_by_id_json():
     select_by_id_json(input("Input food id here:"))
 
 
+def run_commands(command):
+    commands.get(command)()
+s
+
+commands = {
+    "select_Id_JSON": run_select_by_id_json,
+    "select_all_JSON": select_all_json,
+    "json_to_sql": json_to_sql,
+    "csv_to_sql": csv_to_sql,
+    "run_open_json": run_open_json,
+    "run_select_all_sql": run_select_all_sql,
+}
+
 if __name__ == "__main__":
-    run_select_by_id_json()
-
-    # select_all_json()
-
-    # json_to_sql()
-
-
-    # csv_to_sql()
-
-    # run_open_json()
-
-    # run_select_all_sql()
-
-
-
-
+    run_commands(input("Insert command: "))
 # show = run_open_csv()
 # print(show)
-
