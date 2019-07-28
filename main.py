@@ -69,7 +69,7 @@ def run_select_by_id_json():
 
 def run_commands(command):
     commands.get(command)()
-s
+
 
 commands = {
     "select_Id_JSON": run_select_by_id_json,
