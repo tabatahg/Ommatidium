@@ -1,6 +1,6 @@
 import json
 import uuid
-from common_functions import connection_string
+from common_functions import connection_string, create_json_file
 
 
 def open_json(file):
@@ -53,6 +53,4 @@ def select_by_id_json(food_id):
     column_names = [col[0] for col in description]
     json_dictionary = [dict(zip(column_names, row)) for row in cursor]
 
-    file_name = str(uuid.uuid4().hex)
-    with open(file_name + ".json", "w") as file:
-        json.dump(json_dictionary, file)
+    create_json_file(json_dictionary)

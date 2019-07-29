@@ -5,6 +5,7 @@ from SQL_commands_json import *
 from SQL_commands_common import *
 from OCR_component import image_to_text
 
+
 def run_open_json():
     """
     Opens a json file
@@ -53,7 +54,7 @@ def csv_to_sql():
 
 def json_to_sql():
     """
-    Imports CSV and inserts to SQL
+    Imports json and inserts to SQL
     """
     data = run_open_json()
     insert_sql(data)
@@ -71,21 +72,41 @@ def run_image_to_text():
     image_to_text(input("Insert image address: "))
 
 
+def run_image_to_sql():
+    image_to_text(input("Insert image address: "))
+    json_to_sql()
+
+
 def run_commands(command):
+    """
+    Run a command as per the number
+    :param command:
+    "select_Id_JSON"= 1,
+    "select_all_JSON": 2,
+    "json_to_sql": 3,
+    "csv_to_sql": 4,
+    "run_open_json": 5,
+    "run_select_all_sql": 6,
+    "image_to_text": 7,
+    "image_to_sql": 8
+    :return: the command number
+    """
     commands.get(command)()
 
 
 commands = {
-    "select_Id_JSON": run_select_by_id_json,
-    "select_all_JSON": select_all_json,
-    "json_to_sql": json_to_sql,
-    "csv_to_sql": csv_to_sql,
-    "run_open_json": run_open_json,
-    "run_select_all_sql": run_select_all_sql,
-    "image_to_text": run_image_to_text,
+    "1": run_select_by_id_json,
+    "2": select_all_json,
+    "3": json_to_sql,
+    "4": csv_to_sql,
+    "5": run_open_json,
+    "6": run_select_all_sql,
+    "7": run_image_to_text,
+    "8": run_image_to_sql,
 }
 
 if __name__ == "__main__":
     run_commands(input("Insert command: "))
+
 # show = run_open_csv()
 # print(show)
