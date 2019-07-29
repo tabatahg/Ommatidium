@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8f23007-415c-4de4-8070-657abf02a3d6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OCR_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/OCR_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL_commands_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/SQL_commands_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/common_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
+            <state relative-caret-position="450">
+              <caret line="110" column="43" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
               <folding>
                 <element signature="e#41#71#0" expanded="true" />
               </folding>
@@ -27,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OCR_component.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+            <state relative-caret-position="486">
+              <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
               <folding>
                 <element signature="e#68#86#0" expanded="true" />
               </folding>
@@ -40,15 +45,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample_labels/NFHoney.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SQL_commands_json.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="59">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -57,19 +57,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SQL_commands_common.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common_functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            <state relative-caret-position="450">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -100,19 +91,19 @@
         <option value="$PROJECT_DIR$/ommatidium/main2.py" />
         <option value="$PROJECT_DIR$/ommatidium/main.py" />
         <option value="$PROJECT_DIR$/json_to_object.py" />
-        <option value="$PROJECT_DIR$/SQL_commands_csv.py" />
         <option value="$PROJECT_DIR$/SQL_commands_common.py" />
         <option value="$PROJECT_DIR$/SQL_commands_json.py" />
-        <option value="$PROJECT_DIR$/common_functions.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/common_functions.py" />
+        <option value="$PROJECT_DIR$/SQL_commands_csv.py" />
         <option value="$PROJECT_DIR$/OCR_component.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="1432" />
+    <option name="width" value="1223" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -121,6 +112,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Ommatidium" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\tabat\PycharmProjects\Ommatidium" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,17 +134,6 @@
               <item name="Ommatidium" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ommatidium" type="462c0819:PsiDirectoryNode" />
               <item name="sample_labels" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Ommatidium" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\tabat\PycharmProjects\Ommatidium" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -227,20 +218,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1432" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50084037" side_tool="true" weight="0.30133504" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49915966" visible="true" weight="0.20444763" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49915966" visible="true" weight="0.15015806" />
       <window_info id="Structure" order="2" sideWeight="0.50084037" side_tool="true" weight="0.30133504" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49904642" weight="0.3322072" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50105375" side_tool="true" weight="0.32664436" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50125945" side_tool="true" weight="0.39864865" />
       <window_info anchor="bottom" id="Python Console" order="2" sideWeight="0.4996139" weight="0.32882884" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32995495" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49894625" visible="true" weight="0.29054055" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39910814" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49894625" visible="true" weight="0.28985506" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49874055" weight="0.39864865" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32887402" />
@@ -250,6 +241,27 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" sideWeight="0.50084037" side_tool="true" weight="0.30133504" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49915966" visible="true" weight="0.23929471" />
+      <window_info id="Structure" order="2" sideWeight="0.50084037" side_tool="true" weight="0.30133504" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49904642" weight="0.3322072" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50125945" side_tool="true" weight="0.39864865" />
+      <window_info anchor="bottom" id="Python Console" order="2" sideWeight="0.4996139" weight="0.32882884" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32995495" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49894625" weight="0.2927928" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49874055" weight="0.39864865" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32887402" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="GraphQL" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -269,35 +281,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/29a75b74ea7f4e68adcd621b3c93b5d8.csv" />
-    <entry file="file://$PROJECT_DIR$/654b90d42c3849ad8f1a96f7659be7c6.csv" />
-    <entry file="file://$PROJECT_DIR$/baa6c6ec33b3486bbbcd9ccfb3921a16.csv" />
-    <entry file="file://$PROJECT_DIR$/1b6a27b101204207aa0dc44d6cd4658c.csv" />
-    <entry file="file://$PROJECT_DIR$/SQL_commands.py" />
-    <entry file="file://$PROJECT_DIR$/ommatidium/object_to_sql.py" />
-    <entry file="file://$PROJECT_DIR$/ommatidium/csv_to_object.py" />
-    <entry file="file://$PROJECT_DIR$/ommatidium/main2.py" />
-    <entry file="file://$PROJECT_DIR$/ommatidium/json_to_object.py" />
-    <entry file="file://$PROJECT_DIR$/ommatidium/SQL_commands_csv.py" />
-    <entry file="file://$PROJECT_DIR$/ommatidium/main.py" />
-    <entry file="file://$PROJECT_DIR$/950a8bbce7024df39d1ed8a7f94abf2e.csv" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/decoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="354" selection-start-line="354" selection-end-line="354" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csv_to_object.py" />
-    <entry file="file://$PROJECT_DIR$/jello.json" />
-    <entry file="file://$PROJECT_DIR$/data/jello.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de44cf2b3f324085a12ae23be6f90ef9.json" />
-    <entry file="file://$PROJECT_DIR$/da1258dad9af41c38d3365226833ff75.json" />
-    <entry file="file://$PROJECT_DIR$/65fc159fbc544791b81c9eab8742682d.json" />
-    <entry file="file://$PROJECT_DIR$/4a10a924d51948ea84ff2bc9319e9f1b.json" />
-    <entry file="file://$PROJECT_DIR$/89752df8a63e4871b37178e2556c74c0.json" />
     <entry file="file://$PROJECT_DIR$/7914505b3fa2408b835b5f33a1d7fd3c.csv" />
     <entry file="file://$PROJECT_DIR$/fc94024b19f04ad6bb823eb9bcc2b22d.json" />
     <entry file="file://$PROJECT_DIR$/19ec8791d3ca4644a6af8abcc8858db5.json" />
@@ -318,9 +301,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/914fd095607446248e83c2891b6cdd5e.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/914fd095607446248e83c2891b6cdd5e.json" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/pytesseract/pytesseract.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-84">
@@ -331,28 +312,12 @@
     <entry file="file://$PROJECT_DIR$/sample_labels/nutritioninfo-1446846301.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/nutrition_label_parents.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nutrition_label_parents.gif" />
     <entry file="file://$PROJECT_DIR$/object_to_sql.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SQL_commands_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-          <folding>
-            <element signature="e#37#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/169e8e4d532f41a9955da5817130568c.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json_files/ce08a4960058416bb23a5f21b86d437f.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/169e8e4d532f41a9955da5817130568c.json" />
+    <entry file="file://$PROJECT_DIR$/json_files/ce08a4960058416bb23a5f21b86d437f.json" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
@@ -360,55 +325,176 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/json_files/533c368adffc45c481864ef61fe4a52c.json" />
+    <entry file="file://$PROJECT_DIR$/e8e65a860a3a45248fc91389c230254b.json" />
+    <entry file="file://$PROJECT_DIR$/json_files/de6156e3e1184f1f8bfc0eae6295583b.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/25700d4231b64f7ebd88563ed1974e1e.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_labels/NFHoney.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json_files/ae2f170a082041e6beab12294d69cd3d.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ed9500d40e9c4ce0bd54f0a070b943fe.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/430cdccb242d43aca7f60cc31ab0b2dc.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b5914a322f404a4994a762fcf39fc8cd.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/simple_link_example_windows/simple_link_example/simple_link_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
+        <state relative-caret-position="-1728">
           <folding>
-            <element signature="e#41#71#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6201c082e02345309cb5e3340d5cf4fd.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/jello.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2fd1d06b1e8c4682875d459563a2528c.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/65af4409b5214b19bc4693c5d94b8d66.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_files/c5918f2a18dc4fd89516ab947effaae3.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2e5aee05649c4a3fa9a0d831948adbe3.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-526" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/90ec72603d534c4b87ea9a48ca835197.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1925909f521b4d2c9f905938aacd5990.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_files/f71f7f98956d4dc8aa65d901fbd591f5.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_files/4831a2ac9c8d45e1a7dd4c3c6b1ea8f9.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_files/7e18056ef15d477a807cd8baba7816dd.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_files/92e17a0835834062b8f1ea6e4c703f70.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_files/300cc163322d46fdb82b674e0ad877a8.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQL_commands_common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_files/379f03a7255a4848a48ef7f68ee602ad.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_files/0546f1c06643478db0a0379211ec6823.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_files/b77dbedfef7d4208a75d2b39137b8ca4.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_files/f5264c2cf0384e1dac335df73b29ae1d.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_files/9e217b9ac025417c8ef025fb27fb5a5d.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQL_commands_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#37#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_files/686c5304b68348a89e9dc07f8a5ce76c.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json_files/675ca4aa63f3468ab3920d47d6606ae6.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common_functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        <state relative-caret-position="450">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/json_files/533c368adffc45c481864ef61fe4a52c.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/SQL_commands_json.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="59">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample_labels/NFHoney.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SQL_commands_common.py">
+    <entry file="file://$PROJECT_DIR$/OCR_component.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="486">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+          <folding>
+            <element signature="e#68#86#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OCR_component.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        <state relative-caret-position="450">
+          <caret line="110" column="43" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
           <folding>
-            <element signature="e#68#86#0" expanded="true" />
+            <element signature="e#41#71#0" expanded="true" />
           </folding>
         </state>
       </provider>

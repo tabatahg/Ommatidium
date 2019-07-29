@@ -3,7 +3,7 @@ try:
 except ImportError:
     import Image
 import pytesseract
-from common_functions import create_json_file
+from common_functions import create_json_file, create_csv_file
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
@@ -49,8 +49,24 @@ def image_to_text(image):
 
     data_dictionary = dict(zip(data_key, data_value))
     print(data_dictionary)
-    create_json_file(data_dictionary)
+    create_file(input(file_query), data_dictionary)
     return data_dictionary
 
 
+def create_file(number, data_dictionary):
+    if number == "1":
+        create_json_file(data_dictionary)
+    elif number == "2":
+        create_csv_file(data_dictionary)
+    else:
+        pass
 
+
+file_query = """
+             1 = JSON. 
+             
+             2 = CSV. 
+             
+             3 = No 
+             
+             Do you want to create a file? """

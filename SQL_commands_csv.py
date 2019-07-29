@@ -2,7 +2,7 @@
 
 import uuid
 import csv
-from common_functions import connection_string
+from common_functions import connection_string, create_csv_file
 
 
 def open_csv(file):
@@ -37,7 +37,7 @@ def select_all_sql():
             data_handler.writerow(row)
 
 
-def select_by_id_sql(food_id):
+def select_by_id_sql_csv(food_id):
     """
     Select data by id from SQL Table
     :return:Print row of data from SQL based on id
@@ -53,9 +53,8 @@ def select_by_id_sql(food_id):
                      """
     cursor.execute(select_with_id.format(food_id))
 
-    file_name = str(uuid.uuid4().hex)
-    with open(file_name + ".csv", "w") as file:
-        for row in cursor.fetchall():
-            data_handler = csv.writer(file, delimiter=",")
-            data_handler.writerow(row)
+    description = cursor.description
+    column_names = [col[0] for col in description]
+    csv_dictionary = [dict(zip(column_names, row)) for row in cursor]
+    create_csv_file(csv_dictionary[0])
 

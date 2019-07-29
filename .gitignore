@@ -114,5 +114,6 @@ dmypy.json
 .pyre/
 
 # extraneous directories
+csv_files/
 sample_labels/
 json_files/

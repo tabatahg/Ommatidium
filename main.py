@@ -61,7 +61,7 @@ def json_to_sql():
 
 
 def run_select_by_id_csv():
-    select_by_id_sql(input("food id here:"))
+    select_by_id_sql_csv(input("food id here:"))
 
 
 def run_select_by_id_json():
@@ -73,8 +73,8 @@ def run_image_to_text():
 
 
 def run_image_to_sql():
-    image_to_text(input("Insert image address: "))
-    json_to_sql()
+    data = image_to_text(input("Insert image address: "))
+    insert_sql(data)
 
 
 def run_commands(command):
@@ -83,12 +83,13 @@ def run_commands(command):
     :param command:
     "select_Id_JSON"= 1,
     "select_all_JSON": 2,
-    "json_to_sql": 3,
-    "csv_to_sql": 4,
-    "run_open_json": 5,
-    "run_select_all_sql": 6,
-    "image_to_text": 7,
-    "image_to_sql": 8
+    "select_by_id_csv: 3,
+    "json_to_sql": 4,
+    "csv_to_sql": 5,
+    "run_open_json": 6,
+    "run_select_all_sql": 7,
+    "image_to_text": 8,
+    "image_to_sql": 9
     :return: the command number
     """
     commands.get(command)()
@@ -97,16 +98,14 @@ def run_commands(command):
 commands = {
     "1": run_select_by_id_json,
     "2": select_all_json,
-    "3": json_to_sql,
-    "4": csv_to_sql,
-    "5": run_open_json,
-    "6": run_select_all_sql,
-    "7": run_image_to_text,
-    "8": run_image_to_sql,
+    "3": run_select_by_id_csv,
+    "4": json_to_sql,
+    "5": csv_to_sql,
+    "6": run_open_json,
+    "7": run_select_all_sql,
+    "8": run_image_to_text,
+    "9": run_image_to_sql,
 }
 
 if __name__ == "__main__":
     run_commands(input("Insert command: "))
-
-# show = run_open_csv()
-# print(show)
