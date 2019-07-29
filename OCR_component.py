@@ -15,6 +15,11 @@ def image_to_text(image):
     :return: list of data
     """
     image_string = pytesseract.image_to_string((Image.open(image)))
+
+    name_value = ""
+    if len(name_value) == 0:
+        name_value = input("Input name here: ")
+
     calories_index = image_string.find("Calories")
     calories = image_string[calories_index:calories_index+12].split(" ")
     calorie_key, calorie_value = " ".join(calories).split(" ")
@@ -38,8 +43,8 @@ def image_to_text(image):
     protein_key, protein_value = protein_data[:protein_data.find("g")].split(" ")
     print(protein_key, protein_value)
 
-    data_key = [calorie_key, fat_key, carbohydrate_key, protein_key]
-    data_value = [calorie_value, fat_value, carbohydrate_value, protein_value]
+    data_key = ["Name", calorie_key, fat_key, carbohydrate_key, protein_key]
+    data_value = [name_value, calorie_value, fat_value, carbohydrate_value, protein_value]
     print("--------->", data_key, data_value)
 
     data_dictionary = dict(zip(data_key, data_value))
