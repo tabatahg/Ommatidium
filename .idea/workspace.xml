@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8f23007-415c-4de4-8070-657abf02a3d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/tabat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OCR_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,14 +19,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="377">
+              <caret line="90" column="13" lean-forward="true" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
               <folding>
                 <element signature="e#41#71#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OCR_component.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#68#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -55,13 +80,14 @@
         <option value="$PROJECT_DIR$/SQL_commands_csv.py" />
         <option value="$PROJECT_DIR$/SQL_commands_json.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/OCR_component.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="363" />
-    <option name="y" value="38" />
-    <option name="width" value="1181" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="937" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -80,7 +106,7 @@
             <path>
               <item name="Ommatidium" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ommatidium" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="sample_labels" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -103,10 +129,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tabat\PycharmProjects\Ommatidium\sample_labels" />
       <recent name="C:\Users\tabat\PycharmProjects\Ommatidium\ommatidium" />
       <recent name="C:\Users\tabat\PycharmProjects\Ommatidium\ommatidium\venv" />
       <recent name="C:\Users\tabat\PycharmProjects\Ommatidium\ommatidium\venv\csv" />
@@ -175,19 +202,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="937" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50084037" side_tool="true" weight="0.30133504" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49915966" visible="true" weight="0.15015806" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49915966" visible="true" weight="0.3170189" />
       <window_info id="Structure" order="2" sideWeight="0.50084037" side_tool="true" weight="0.30133504" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49904642" weight="0.32887402" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49904642" weight="0.3322072" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50105375" side_tool="true" weight="0.32664436" />
-      <window_info anchor="bottom" id="Python Console" order="2" sideWeight="0.4996139" weight="0.32887402" />
+      <window_info anchor="bottom" id="Python Console" order="2" sideWeight="0.4996139" weight="0.32882884" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49894625" visible="true" weight="0.32664436" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49894625" visible="true" weight="0.3265766" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -304,13 +331,43 @@
     <entry file="file://$PROJECT_DIR$/914fd095607446248e83c2891b6cdd5e.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/pytesseract/pytesseract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_labels/nutritioninfo-1446846301.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nutrition_label_parents.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="377">
+          <caret line="90" column="13" lean-forward="true" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
           <folding>
             <element signature="e#41#71#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OCR_component.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#68#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
         </state>
       </provider>
     </entry>

@@ -3,7 +3,7 @@
 from SQL_commands_csv import *
 from SQL_commands_json import *
 from SQL_commands_common import *
-
+from OCR_component import image_to_text
 
 def run_open_json():
     """
@@ -67,6 +67,10 @@ def run_select_by_id_json():
     select_by_id_json(input("Input food id here:"))
 
 
+def run_image_to_text():
+    image_to_text(input("Insert image address: "))
+
+
 def run_commands(command):
     commands.get(command)()
 
@@ -78,6 +82,7 @@ commands = {
     "csv_to_sql": csv_to_sql,
     "run_open_json": run_open_json,
     "run_select_all_sql": run_select_all_sql,
+    "image_to_text": run_image_to_text,
 }
 
 if __name__ == "__main__":
